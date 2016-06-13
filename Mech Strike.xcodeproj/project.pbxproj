@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		596352311A8D50F8006C0C8E /* WireFrameGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 596352301A8D50F8006C0C8E /* WireFrameGraph.m */; };
+		59EE574E1A84068600F7839D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE574D1A84068600F7839D /* main.m */; };
+		59EE57511A84068600F7839D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE57501A84068600F7839D /* AppDelegate.m */; };
+		59EE57541A84068600F7839D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE57531A84068600F7839D /* GameScene.m */; };
+		59EE57561A84068600F7839D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59EE57551A84068600F7839D /* GameScene.sks */; };
+		59EE57591A84068600F7839D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE57581A84068600F7839D /* GameViewController.m */; };
+		59EE575C1A84068600F7839D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EE575A1A84068600F7839D /* Main.storyboard */; };
+		59EE575E1A84068600F7839D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59EE575D1A84068600F7839D /* Images.xcassets */; };
+		59EE57611A84068600F7839D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59EE575F1A84068600F7839D /* LaunchScreen.xib */; };
+		59EE576D1A84068600F7839D /* Mech_StrikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE576C1A84068600F7839D /* Mech_StrikeTests.m */; };
+		59EE577B1A84085300F7839D /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 59EE57761A84085300F7839D /* Level_0.json */; };
+		59EE577C1A84085300F7839D /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 59EE57771A84085300F7839D /* Level_1.json */; };
+		59EE577D1A84085300F7839D /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 59EE57781A84085300F7839D /* Level_2.json */; };
+		59EE577E1A84085300F7839D /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 59EE57791A84085300F7839D /* Level_3.json */; };
+		59EE577F1A84085300F7839D /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 59EE577A1A84085300F7839D /* Level_4.json */; };
+		59EE57831A8408EA00F7839D /* Mech.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE57821A8408EA00F7839D /* Mech.m */; };
+		59EE57861A840AD900F7839D /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE57851A840AD900F7839D /* Level.m */; };
+		59EE57891A8412BC00F7839D /* Swap.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE57881A8412BC00F7839D /* Swap.m */; };
+		59EE578C1A85226E00F7839D /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE578B1A85226E00F7839D /* Tile.m */; };
+		59EE57901A85554E00F7839D /* Movement.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE578F1A85554E00F7839D /* Movement.m */; };
+		59EE57931A85556100F7839D /* Attack.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE57921A85556100F7839D /* Attack.m */; };
+		59EE57961A85560400F7839D /* ColorTiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE57951A85560400F7839D /* ColorTiles.m */; };
+		59EE57991A85561400F7839D /* EnemyAI.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE57981A85561400F7839D /* EnemyAI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59EE57671A84068600F7839D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59EE57401A84068600F7839D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59EE57471A84068600F7839D;
+			remoteInfo = "Mech Strike";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5963522F1A8D50F8006C0C8E /* WireFrameGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WireFrameGraph.h; sourceTree = "<group>"; };
+		596352301A8D50F8006C0C8E /* WireFrameGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WireFrameGraph.m; sourceTree = "<group>"; };
+		59EE57481A84068600F7839D /* Mech Strike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mech Strike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EE574C1A84068600F7839D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59EE574D1A84068600F7839D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59EE574F1A84068600F7839D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59EE57501A84068600F7839D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59EE57521A84068600F7839D /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		59EE57531A84068600F7839D /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		59EE57551A84068600F7839D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		59EE57571A84068600F7839D /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		59EE57581A84068600F7839D /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		59EE575B1A84068600F7839D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59EE575D1A84068600F7839D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59EE57601A84068600F7839D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		59EE57661A84068600F7839D /* Mech StrikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mech StrikeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EE576B1A84068600F7839D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59EE576C1A84068600F7839D /* Mech_StrikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mech_StrikeTests.m; sourceTree = "<group>"; };
+		59EE57761A84085300F7839D /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		59EE57771A84085300F7839D /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		59EE57781A84085300F7839D /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		59EE57791A84085300F7839D /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		59EE577A1A84085300F7839D /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		59EE57811A8408EA00F7839D /* Mech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mech.h; sourceTree = "<group>"; };
+		59EE57821A8408EA00F7839D /* Mech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mech.m; sourceTree = "<group>"; };
+		59EE57841A840AD900F7839D /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		59EE57851A840AD900F7839D /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		59EE57871A8412BC00F7839D /* Swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swap.h; sourceTree = "<group>"; };
+		59EE57881A8412BC00F7839D /* Swap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swap.m; sourceTree = "<group>"; };
+		59EE578A1A85226E00F7839D /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		59EE578B1A85226E00F7839D /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		59EE578E1A85554E00F7839D /* Movement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movement.h; sourceTree = "<group>"; };
+		59EE578F1A85554E00F7839D /* Movement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movement.m; sourceTree = "<group>"; };
+		59EE57911A85556100F7839D /* Attack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attack.h; sourceTree = "<group>"; };
+		59EE57921A85556100F7839D /* Attack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attack.m; sourceTree = "<group>"; };
+		59EE57941A85560400F7839D /* ColorTiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTiles.h; sourceTree = "<group>"; };
+		59EE57951A85560400F7839D /* ColorTiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTiles.m; sourceTree = "<group>"; };
+		59EE57971A85561400F7839D /* EnemyAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyAI.h; sourceTree = "<group>"; };
+		59EE57981A85561400F7839D /* EnemyAI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyAI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59EE57451A84068600F7839D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EE57631A84068600F7839D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59EE573F1A84068600F7839D = {
+			isa = PBXGroup;
+			children = (
+				59EE574A1A84068600F7839D /* Mech Strike */,
+				59EE57691A84068600F7839D /* Mech StrikeTests */,
+				59EE57491A84068600F7839D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59EE57491A84068600F7839D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59EE57481A84068600F7839D /* Mech Strike.app */,
+				59EE57661A84068600F7839D /* Mech StrikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59EE574A1A84068600F7839D /* Mech Strike */ = {
+			isa = PBXGroup;
+			children = (
+				59EE578D1A85248000F7839D /* Levels */,
+				59EE57801A84088F00F7839D /* Classes */,
+				59EE574F1A84068600F7839D /* AppDelegate.h */,
+				59EE57501A84068600F7839D /* AppDelegate.m */,
+				59EE57521A84068600F7839D /* GameScene.h */,
+				59EE57531A84068600F7839D /* GameScene.m */,
+				59EE57551A84068600F7839D /* GameScene.sks */,
+				59EE57571A84068600F7839D /* GameViewController.h */,
+				59EE57581A84068600F7839D /* GameViewController.m */,
+				59EE575A1A84068600F7839D /* Main.storyboard */,
+				59EE575D1A84068600F7839D /* Images.xcassets */,
+				59EE575F1A84068600F7839D /* LaunchScreen.xib */,
+				59EE574B1A84068600F7839D /* Supporting Files */,
+			);
+			path = "Mech Strike";
+			sourceTree = "<group>";
+		};
+		59EE574B1A84068600F7839D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59EE574C1A84068600F7839D /* Info.plist */,
+				59EE574D1A84068600F7839D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59EE57691A84068600F7839D /* Mech StrikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				59EE576C1A84068600F7839D /* Mech_StrikeTests.m */,
+				59EE576A1A84068600F7839D /* Supporting Files */,
+			);
+			path = "Mech StrikeTests";
+			sourceTree = "<group>";
+		};
+		59EE576A1A84068600F7839D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59EE576B1A84068600F7839D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59EE57801A84088F00F7839D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				59EE57811A8408EA00F7839D /* Mech.h */,
+				59EE57821A8408EA00F7839D /* Mech.m */,
+				59EE57841A840AD900F7839D /* Level.h */,
+				59EE57851A840AD900F7839D /* Level.m */,
+				59EE57871A8412BC00F7839D /* Swap.h */,
+				59EE57881A8412BC00F7839D /* Swap.m */,
+				59EE578A1A85226E00F7839D /* Tile.h */,
+				59EE578B1A85226E00F7839D /* Tile.m */,
+				59EE578E1A85554E00F7839D /* Movement.h */,
+				59EE578F1A85554E00F7839D /* Movement.m */,
+				59EE57911A85556100F7839D /* Attack.h */,
+				59EE57921A85556100F7839D /* Attack.m */,
+				59EE57941A85560400F7839D /* ColorTiles.h */,
+				59EE57951A85560400F7839D /* ColorTiles.m */,
+				59EE57971A85561400F7839D /* EnemyAI.h */,
+				59EE57981A85561400F7839D /* EnemyAI.m */,
+				5963522F1A8D50F8006C0C8E /* WireFrameGraph.h */,
+				596352301A8D50F8006C0C8E /* WireFrameGraph.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		59EE578D1A85248000F7839D /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				59EE57761A84085300F7839D /* Level_0.json */,
+				59EE57771A84085300F7839D /* Level_1.json */,
+				59EE57781A84085300F7839D /* Level_2.json */,
+				59EE57791A84085300F7839D /* Level_3.json */,
+				59EE577A1A84085300F7839D /* Level_4.json */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59EE57471A84068600F7839D /* Mech Strike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59EE57701A84068600F7839D /* Build configuration list for PBXNativeTarget "Mech Strike" */;
+			buildPhases = (
+				59EE57441A84068600F7839D /* Sources */,
+				59EE57451A84068600F7839D /* Frameworks */,
+				59EE57461A84068600F7839D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mech Strike";
+			productName = "Mech Strike";
+			productReference = 59EE57481A84068600F7839D /* Mech Strike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59EE57651A84068600F7839D /* Mech StrikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59EE57731A84068600F7839D /* Build configuration list for PBXNativeTarget "Mech StrikeTests" */;
+			buildPhases = (
+				59EE57621A84068600F7839D /* Sources */,
+				59EE57631A84068600F7839D /* Frameworks */,
+				59EE57641A84068600F7839D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59EE57681A84068600F7839D /* PBXTargetDependency */,
+			);
+			name = "Mech StrikeTests";
+			productName = "Mech StrikeTests";
+			productReference = 59EE57661A84068600F7839D /* Mech StrikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59EE57401A84068600F7839D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Strikerware;
+				TargetAttributes = {
+					59EE57471A84068600F7839D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					59EE57651A84068600F7839D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 59EE57471A84068600F7839D;
+					};
+				};
+			};
+			buildConfigurationList = 59EE57431A84068600F7839D /* Build configuration list for PBXProject "Mech Strike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59EE573F1A84068600F7839D;
+			productRefGroup = 59EE57491A84068600F7839D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59EE57471A84068600F7839D /* Mech Strike */,
+				59EE57651A84068600F7839D /* Mech StrikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59EE57461A84068600F7839D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EE57611A84068600F7839D /* LaunchScreen.xib in Resources */,
+				59EE577F1A84085300F7839D /* Level_4.json in Resources */,
+				59EE577D1A84085300F7839D /* Level_2.json in Resources */,
+				59EE577B1A84085300F7839D /* Level_0.json in Resources */,
+				59EE575E1A84068600F7839D /* Images.xcassets in Resources */,
+				59EE57561A84068600F7839D /* GameScene.sks in Resources */,
+				59EE577C1A84085300F7839D /* Level_1.json in Resources */,
+				59EE577E1A84085300F7839D /* Level_3.json in Resources */,
+				59EE575C1A84068600F7839D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EE57641A84068600F7839D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59EE57441A84068600F7839D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EE57991A85561400F7839D /* EnemyAI.m in Sources */,
+				59EE57861A840AD900F7839D /* Level.m in Sources */,
+				59EE57931A85556100F7839D /* Attack.m in Sources */,
+				59EE57831A8408EA00F7839D /* Mech.m in Sources */,
+				59EE57591A84068600F7839D /* GameViewController.m in Sources */,
+				59EE57511A84068600F7839D /* AppDelegate.m in Sources */,
+				59EE57891A8412BC00F7839D /* Swap.m in Sources */,
+				59EE57961A85560400F7839D /* ColorTiles.m in Sources */,
+				59EE57541A84068600F7839D /* GameScene.m in Sources */,
+				59EE57901A85554E00F7839D /* Movement.m in Sources */,
+				596352311A8D50F8006C0C8E /* WireFrameGraph.m in Sources */,
+				59EE574E1A84068600F7839D /* main.m in Sources */,
+				59EE578C1A85226E00F7839D /* Tile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59EE57621A84068600F7839D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59EE576D1A84068600F7839D /* Mech_StrikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59EE57681A84068600F7839D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59EE57471A84068600F7839D /* Mech Strike */;
+			targetProxy = 59EE57671A84068600F7839D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59EE575A1A84068600F7839D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59EE575B1A84068600F7839D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59EE575F1A84068600F7839D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59EE57601A84068600F7839D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59EE576E1A84068600F7839D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		59EE576F1A84068600F7839D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59EE57711A84068600F7839D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mech Strike/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59EE57721A84068600F7839D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mech Strike/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59EE57741A84068600F7839D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mech StrikeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mech Strike.app/Mech Strike";
+			};
+			name = Debug;
+		};
+		59EE57751A84068600F7839D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mech StrikeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mech Strike.app/Mech Strike";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59EE57431A84068600F7839D /* Build configuration list for PBXProject "Mech Strike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EE576E1A84068600F7839D /* Debug */,
+				59EE576F1A84068600F7839D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59EE57701A84068600F7839D /* Build configuration list for PBXNativeTarget "Mech Strike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EE57711A84068600F7839D /* Debug */,
+				59EE57721A84068600F7839D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59EE57731A84068600F7839D /* Build configuration list for PBXNativeTarget "Mech StrikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59EE57741A84068600F7839D /* Debug */,
+				59EE57751A84068600F7839D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59EE57401A84068600F7839D /* Project object */;
+}
